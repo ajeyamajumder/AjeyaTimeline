@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Mytimeline" />
+    <meta property="og:description" content="Mytimeline" />
+    <meta property="og:type" content="website..." />
+    <meta property="og:image" content="http://  " />
+    <meta property="og:url" content="https://mytimeline.com " />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://kit.fontawesome.com/8ddc578668.js" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+    <title>My Timeline</title>
+  </head>
+  <body>
+    <section class="section intro">
+      <div class="container" data-aos="zoom-in">
+        <h1>My timeline</h1>
+      </div>
+    </section>
+
+    <section class="monthline" data-aos="flip-up">
+      <ol>
+        <li>
+          <div data-aos="flip-up">
+            <month>September</month> 7th September 1991 I was born
+          </div>
+        </li>
+        <li>
+          <div data-aos="flip-up">
+            <month>May</month> May 2010 Completed my High School
+          </div>
+        </li>
+
+        <li>
+          <div data-aos="flip-up">
+            <month>July</month> July 2013 Completed my Graduation on Economics
+          </div>
+        </li>
+        <li>
+          <div data-aos="flip-up">
+            <month>August</month> August 2016 Completed MBA in Marketing
+          </div>
+        </li>
+
+        <div class="arrows">
+          <button class="arrow arrow__prev">
+            <i class="fas fa-arrow-circle-right"></i>
+          </button>
+          <button class="arrow arrow__next">
+            <i class="fas fa-arrow-circle-right"></i>
+          </button>
+        </div>
+      </ol>
+    </section>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
