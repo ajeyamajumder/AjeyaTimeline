@@ -20,8 +20,7 @@ body {
 }
 
 
-/* .section SECTION
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*  section*/
 
 .section {
     background: rgb(25, 25, 112);
@@ -44,8 +43,7 @@ body {
 }
 
 
-/* monthLINE
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* monthline */
 
 .monthline {
     white-space: nowrap;
@@ -145,8 +143,7 @@ body {
 }
 
 
-/* monthLINE ARROWS
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*monthline arrows*/
 
 .monthline .arrows {
     display: flex;
@@ -170,8 +167,7 @@ body {
 }
 
 
-/* GENERAL MEDIA QUERIES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*  media queries*/
 @media screen and (max-width: 599px) {
 
     .monthline ol,
